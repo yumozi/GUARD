@@ -3,7 +3,7 @@
 Official implementation of paper (based on SRe<sup>2</sup>L):
 >[__"Towards Adversarially Robust Dataset Distillation by Curvature Regularization"__](https://arxiv.org/abs/2403.10045)<br>
 >Eric Xue, Yijiang Li, Haoyang Liu, Peiran Wang, Yifan Shen, Haohan Wang<br>
-[`[Paper]`](https://arxiv.org/abs/2403.10045) [`[Code]`](https://github.com/yumozi/GUARD)[`[Website]`]()
+[`[Paper]`](https://arxiv.org/abs/2403.10045) [`[Code]`](https://github.com/yumozi/GUARD)[`[Website]`](https://yumozi.github.io/GUARD/)
 
 ## Abstract
 Dataset distillation (DD) allows datasets to be distilled to
