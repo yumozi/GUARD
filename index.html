@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="Official website for AAAI 2025 paper: Towards Adversarially Robust Dataset Distillation by Curvature Regularization">
+  <meta property="og:title" content="Towards Adversarially Robust Dataset Distillation by Curvature Regularization"/>
+  <meta property="og:description" content="Official website for AAAI 2025 paper: Towards Adversarially Robust Dataset Distillation by Curvature Regularization"/>
+  <meta property="og:url" content="https://siquanhuang.github.io/Multi-metrics/"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/images/overview.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="Towards Adversarially Robust Dataset Distillation by Curvature Regularization">
+  <meta name="twitter:description" content="Official website for AAAI 2025 paper: Towards Adversarially Robust Dataset Distillation by Curvature Regularization">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/overview.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="Federated learning, Backdoor attack, Distance-based defense, Multi-metrics">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- MathJax Configuration -->
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']],
+        processEscapes: true,
+        processEnvironments: true
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+      }
+    };
+  </script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>Towards Adversarially Robust Dataset Distillation by Curvature Regularization</title>
+  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">Towards Adversarially Robust Dataset Distillation by Curvature Regularization</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">
+                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">Eric Xue</a><sup>1</sup>,</span>
+                <span class="author-block">
+                  <a href="https://williamium3000.github.io/" target="_blank">Yijiang Li</a><sup>2</sup>,</span>
+                <span class="author-block">
+                  <a href="https://williamium3000.github.io/" target="_blank">Haoyang Liu</a><sup>3</sup>,</span>
+                  <span class="author-block">
+                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Peiran Wang</a></a><sup>3</sup>,</span>
+                  </span>
+                  <span class="author-block">
+                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Yifan Shen</a></a><sup>3</sup>,</span>
+                  </span>
+                  <span class="author-block">
+                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Haohan Wang</a></a><sup>3</sup>,</span>
+                  </span>
+
+                  <div class="is-size-5 publication-authors">
+                    <span class="author-block"><sup>1</sup>University of Toronto, <sup>2</sup>UC San Diego, <sup>3</sup>University of Illinois Urbana-Champaign<br>
+                      <div class="column has-text-centered">
+                        <span class="link-block">
+                          <a href="https://iccv2023.thecvf.com/" target="_blank"
+                             class="external-link button is-normal is-rounded"
+                             style="background: linear-gradient(90deg, #185a9d 0%, #43cea2 100%); color: #fff; font-weight: 800; box-shadow: 0 8px 32px rgba(24,90,157,0.18); border: none; transition: all 0.25s cubic-bezier(.25,.8,.25,1); transform: translateY(-3px) scale(1.05); padding: 2.2em 2.6em; letter-spacing: 1.2px; backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); border-radius: 2.5em;">
+                            <span class="icon" style="margin-right: 10px;">
+                              <i class="fas fa-trophy" style="color: #ffe066; font-size: 1.5em; text-shadow: 0 0 16px rgba(255,224,102,0.8), 0 0 4px #fff;"></i>
+                            </span>
+                            <span style="display:inline-block; vertical-align:middle;">
+                              <span style="display:block; text-transform: uppercase; font-size: 1.08em; letter-spacing: 2px; color: #fff; text-shadow: 0 2px 10px rgba(24,90,157,0.18), 0 0 2px #43cea2;">
+                                Accepted by
+                              </span>
+                              <span style="display:block; font-size:1.1em; font-weight:700; margin-top:0.15em; letter-spacing:1.5px; color:#ffe066; text-shadow: 0 2px 10px rgba(24,90,157,0.18), 0 0 2px #43cea2;">
+                                AAAI 2025
+                              </span>
+                            </span>
+                          </a>
+                        </span>
+
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+                         <!-- Arxiv PDF link -->
+                      <span class="link-block">
+                        <a href="https://arxiv.org/abs/2403.10045" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="fas fa-file-pdf"></i>
+                        </span>
+                        <span>Paper</span>
+                      </a>
+                    </span>
+
+                    <!-- Supplementary PDF link -->
+                    <!-- <span class="link-block">
+                      <a href="https://openaccess.thecvf.com/content/ICCV2023/supplemental/Huang_Multi-Metrics_Adaptively_Identifies_ICCV_2023_supplemental.pdf" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="fas fa-file-pdf"></i>
+                      </span>
+                      <span>Supplementary</span>
+                    </a>
+                  </span> -->
+
+                  <!-- Github link -->
+                  <span class="link-block">
+                    <a href="https://github.com/yumozi/GUARD" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>
+
+                <!-- ArXiv abstract Link -->
+                <!-- <span class="link-block">
+                  <a href="static/pdfs/poster.pdf" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fas fa-chalkboard-teacher"></i>
+                  </span>
+                  <span>Poster</span>
+                </a>
+              </span> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- <section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <div class="has-text-centered" style="margin-bottom: 2rem;">
+        <img src="static/images/distilled_in1k.png" alt="Overview of WMDD method" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);"/>
+        <p class="is-size-6" style="margin-top: 0.75rem; color: #555;">
+          We propose GUARD by incorporating curvature regularization
+          into the distillation process to distill robustness into synthetic dataset. Examples generated on ImageNet-1K.
+        </p>
+      </div>
+    </div>
+  </div>
+</section> -->
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Dataset distillation (DD) allows datasets to be distilled to fractions of their original size while preserving the rich distributional information so that models trained on the distilled datasets can achieve a comparable accuracy while saving significant computational loads. Recent research in this area has been focusing on improving the accuracy of models trained on distilled datasets. In this paper, we aim to explore a new perspective of DD. We study how to embed adversarial robustness in distilled datasets, so that models trained on these datasets maintain the high accuracy and meanwhile acquire better adversarial robustness. We propose a new method that achieves this goal by incorporating curvature regularization into the distillation process with much less computational overhead than standard adversarial training. Extensive empirical experiments suggest that our method not only outperforms standard adversarial training on both accuracy and robustness with less computation overhead but is also capable of generating robust distilled datasets that can withstand various adversarial attacks.
+          </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+<section class="section" id="motivation">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3 has-text-centered">Motivation</h2>
+        <div class="content has-text-justified">
+          <p><strong> How can we embed adversarial robustness into the dataset distillation process, thereby generating datasets that inherently lead to more robust models?</strong> While embedding adversarial training directly within the
+            dataset distillation process may seem like an intuitive and
+            straightforward approach, our comprehensive analysis reveals its limitations across various distillation methods. </p>
+        <div class="has-text-centered" style="margin-bottom: 2rem;">
+          <img src="static/images/table1.png" alt="Motivation for robust dataset distillation" style="max-width: 80%; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);"/>
+          <p class="is-size-7" style="margin-top: 0.75rem; color: #555;">
+            Accuracy of ResNet18 on ImageNette trained on distilled datasets from GUARD, SRe2L, and SRe2L with adversarial training
+          </p>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="formulation">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3 has-text-centered">Robust Dataset Distillation</h2>
+        <div class="content has-text-justified">
+          <p>
+            We formulate robust dataset distillation as a <b>tri-level optimization problem</b>, aiming to find distilled data set $\mathcal{S}^*$ that minimizes the expected worst-case adversarial loss. Specifically, the objective is to ensure that models trained on the distilled data not only achieve high accuracy but also exhibit strong adversarial robustness.
+          </p>
+          <p>
+            By leveraging a quadratic Taylor expansion of the loss function and assuming convexity, we derive an upper bound for the adversarial loss on the distilled data:
+          </p>
+          <div class="has-text-centered" style="margin: 1.5rem 0;">
+            <p>
+              $$
+              \tilde{\ell}_\rho^{adv}(\mathbf{x}^\prime) \le \mathbb{E}_{\mathbf{x} \sim D_c} \ell(\mathbf{x}) + \frac{1}{2}\rho^2\, \mathbb{E}_{\mathbf{x} \sim D_c} \lambda_1(\mathbf{x}) + L\sigma,
+              $$
+            </p>
+          </div>
+          <p>
+            where $\lambda_1$ denotes the largest eigenvalue of the Hessian (curvature) of the loss, and $L\sigma$ captures the feature discrepancy between the distilled and real data distributions.
+          </p>
+          <p>
+            <b>Implication:</b> The bound highlights that <b>minimizing the curvature term $\lambda_1$ via geometric regularization is crucial for adversarial robustness</b> in distilled datasets. By explicitly regularizing the curvature during distillation, we can generate synthetic datasets that inherently lead to more robust models.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section" id="experiments">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3 has-text-centered">Experiments</h2>
+        <div class="content has-text-justified">
+          <p>
+            We conduct extensive experiments to evaluate the effectiveness of GUARD on standard benchmarks, including <b>ImageNette</b> and <b>TinyImageNet</b> and <b>ImageNet-1K</b>. We take the following two metrics into consideration:
+          </p>
+          <ul>
+            <li>
+              <b>Clean accuracy:</b> The performance of models trained on distilled datasets when evaluated on unperturbed test data.
+            </li>
+            <li>
+              <b>Adversarial robustness:</b> The performance under various adversarial attacks, such as PGD, Square, AutoAttack, CW, and MIM.
+            </li>
+          </ul>
+          <div class="column has-text-centered">
+            <img src="static/images/table2.png" alt="Figure 1" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);"/>
+          </div>
+          <p>
+            <b>Qualitative:</b>
+          </p>
+          <div class="has-text-centered" style="margin-bottom: 1.5rem;">
+            <img src="static/images/distilled_in1k.png" alt="Distilled Images" style="max-width: 80%; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);"/>
+            <p class="is-size-7" style="margin-top: 0.5rem; color: #555;">
+              Examples of distilled images from GUARD (top) and SRe<sup>2</sup>L (bottom) on ImageNet-1K.
+            </p>
+          </div>
+          <p>
+            <b>Ablation Study:</b>
+          </p>
+          <div class="columns is-vcentered" style="margin-bottom: 1.5rem;">
+            <div class="column has-text-centered">
+              <img src="static/images/ablation1.png" alt="Ablation on Curvature Regularization" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);"/>
+              <p class="is-size-7" style="margin-top: 0.5rem; color: #555;">
+                Effect of different $\lambda_g$. ccuracy on ImageNette.
+              </p>
+            </div>
+            <div class="column has-text-centered">
+              <img src="static/images/ablation2.png" alt="Ablation on Feature Discrepancy" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);"/>
+              <p class="is-size-7" style="margin-top: 0.5rem; color: #555;">
+                Effect of GUARD regularizer, on DC, SRe2L, and CDA. Performance of GUARD regularizer ismarked $\dagger$.
+              </p>
+            </div>
+          </div>
+          <p>
+            <b>Computation Overhead:</b>
+          </p>
+          <div class="has-text-centered" style="margin-bottom: 1.5rem;">
+            <img src="static/images/time.png" alt="Computation Overhead" style="max-width: 70%; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);"/>
+            <p class="is-size-7" style="margin-top: 0.5rem; color: #555;">
+              Computation overhead of GUARD compared with embedded adversarial training
+            </p>
+          </div>
+          <p>
+            <b>Conclusion:</b> GUARD provides a simple yet effective way to endow distilled datasets with adversarial robustness, outperforming existing methods in both robustness and efficiency. Our code and distilled datasets are available at <a href="https://github.com/yumozi/GUARD" target="_blank">https://github.com/yumozi/GUARD</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Paper poster -->
+<!-- <section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title has-text-centered">Poster</h2>
+
+      <iframe  src="static/pdfs/poster.pdf" width="100%" height="1000">
+          </iframe>
+        
+      </div>
+    </div>
+  </section> -->
+<!--End paper poster -->
+
+
+<!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title has-text-centered">Citation</h2>
+      <p>If you find our work useful in your research, please consider citing:</p>
+      <pre><code>@inproceedings{xue2025towards,
+    author = {Eric Xue and Yijiang Li and Haoyang Liu and Peiran Wang and Yifan Shen and Haohan Wang},
+    title = {Towards Adversarially Robust Dataset Distillation by Curvature Regularization},
+    booktitle = {Proceedings of the Thirty-Ninth AAAI Conference on Artificial Intelligence (AAAI-25)},
+    year = {2025},
+}
+</code></pre>
+    </div>
+</section>
+<!--End BibTex citation -->
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
