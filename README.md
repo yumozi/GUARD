@@ -1,6 +1,6 @@
-# GUARD
+# Towards Adversarially Robust Dataset Distillation by Curvature Regularization (AAAI 2025)
 
-Official implementation of paper (based on SRe<sup>2</sup>L):
+Official implementation of paper:
 >[__"Towards Adversarially Robust Dataset Distillation by Curvature Regularization"__](https://arxiv.org/abs/2403.10045)<br>
 >Eric Xue, Yijiang Li, Haoyang Liu, Peiran Wang, Yifan Shen, Haohan Wang<br>
 [`[Paper]`](https://arxiv.org/abs/2403.10045) [`[Code]`](https://github.com/yumozi/GUARD)[`[Website]`](https://yumozi.github.io/GUARD/)
@@ -41,3 +41,6 @@ bash run.sh -x 1 -y 1 -d imagenette -r /home/user/data/ -u 0 -b 10.0 -p -C -h 3.
 }
 ```
 
+## Acknowledgement
+
+Our implementation is based on the implementation of SRe<sup>2</sup>L.
