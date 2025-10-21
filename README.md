@@ -43,4 +43,4 @@ bash run.sh -x 1 -y 1 -d imagenette -r /home/user/data/ -u 0 -b 10.0 -p -C -h 3.
 
 ## Acknowledgement
 
-Our implementation is based on the implementation of SRe<sup>2</sup>L.
+Our implementation is based on the code of [SRe<sup>2</sup>L](https://github.com/VILA-Lab/SRe2L).
